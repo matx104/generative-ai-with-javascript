@@ -1,0 +1,85 @@
+{
+    "course": {
+        "title": "Generative AI for Beginners \u2014 Java",
+        "eyebrow": "QALAM presents \u00b7 Microsoft's curriculum, digested",
+        "subtitle": "Spring Boot, Spring AI and Azure AI Foundry \u2014 enterprise GenAI in the JVM.",
+        "source_name": "Microsoft (Generative AI for Beginners \u2014 Java Edition)",
+        "source_url": "https://github.com/microsoft/generative-ai-for-beginners-java",
+        "fork_url": "https://github.com/matx104/generative-ai-for-beginners-java",
+        "credit_line": "Curriculum \u00a9 Microsoft \u00b7 MIT License \u00b7 digested with credit, shared free.",
+        "after_title": "After the course",
+        "after_note": "The flagship GenAI petal deepens the concepts; the pet story generator and MCP calculator in the fork are your playgrounds.",
+        "og_url": "https://matx104.github.io/generative-ai-for-beginners-java/",
+        "og_image": "img/og.png"
+    },
+    "modules": [
+        {
+            "id": "m1",
+            "num": 1,
+            "title": "The course",
+            "blurb": "Five chapters from concepts to responsible deployment.",
+            "lessons": [
+                {
+                    "id": "01",
+                    "title": "Introduction to generative AI",
+                    "objective": "LLM concepts and the Java AI ecosystem.",
+                    "minutes": 45,
+                    "href": "https://github.com/matx104/generative-ai-for-beginners-java/blob/main/01-IntroToGenAI/README.md",
+                    "keys": [
+                        "Tokens, embeddings, capabilities \u2014 the shared vocabulary",
+                        "Spring AI and the OpenAI SDKs: the two JVM on-ramps",
+                        "MCP already appears in chapter one \u2014 it's that central"
+                    ]
+                },
+                {
+                    "id": "02",
+                    "title": "Development environment setup",
+                    "objective": "Foundry, Bicep, keyless auth.",
+                    "minutes": 45,
+                    "href": "https://github.com/matx104/generative-ai-for-beginners-java/blob/main/02-SetupDevEnvironment/README.md",
+                    "keys": [
+                        "Provision models as code: Bicep + azd, repeatable by decree",
+                        "Keyless auth with Entra ID \u2014 no API keys in config, ever",
+                        "Docker/Codespaces make the environment the deliverable"
+                    ]
+                },
+                {
+                    "id": "03",
+                    "title": "Core generative AI techniques",
+                    "objective": "Prompting, embeddings, RAG, function calling.",
+                    "minutes": 60,
+                    "href": "https://github.com/matx104/generative-ai-for-beginners-java/blob/main/03-CoreGenerativeAITechniques/README.md",
+                    "keys": [
+                        "Prompt engineering transfers as-is to the JVM",
+                        "Vector similarity: embeddings in, nearest neighbors out",
+                        "Function calling: Spring beans the model can invoke"
+                    ]
+                },
+                {
+                    "id": "04",
+                    "title": "Practical applications and projects",
+                    "objective": "Ship the samples: pet stories, local models, MCP calculator.",
+                    "minutes": 60,
+                    "href": "https://github.com/matx104/generative-ai-for-beginners-java/blob/main/04-PracticalSamples/README.md",
+                    "keys": [
+                        "Pet story generator: creative completion end to end",
+                        "Foundry Local: models on your machine, OpenAI SDK compatible",
+                        "MCP calculator with Spring AI \u2014 the protocol speaks Java"
+                    ]
+                },
+                {
+                    "id": "05",
+                    "title": "Responsible AI development",
+                    "objective": "Content safety and best practice.",
+                    "minutes": 45,
+                    "href": "https://github.com/matx104/generative-ai-for-beginners-java/blob/main/05-ResponsibleGenAI/README.md",
+                    "keys": [
+                        "Content safety: hard blocks vs soft refusals \u2014 know which fired",
+                        "Test the guardrails, don't assume them",
+                        "Deploy with the same engineering discipline as any service"
+                    ]
+                }
+            ]
+        }
+    ]
+}
